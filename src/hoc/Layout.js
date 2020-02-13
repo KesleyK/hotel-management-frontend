@@ -5,6 +5,8 @@ import { Switch, Route } from 'react-router-dom';
 import Navigation from '../components/Navigation/Navigation';
 import Rooms from '../containers/Rooms/Rooms';
 import AddRoom from '../containers/AddRoom/AddRoom';
+import HotelServices from '../containers/HotelServices/HotelServices';
+import AddService from '../containers/AddService/AddService';
 import styles from './Layout.module.css';
 
 class Layout extends Component {
@@ -37,6 +39,8 @@ class Layout extends Component {
             <Switch>
               <Route path={this.props.match.path} exact component={Rooms} />
               <Route path={this.props.match.path + '/add-room'} exact component={AddRoom} />
+              <Route path={this.props.match.path + '/services'} exact component={HotelServices} />
+              <Route path={this.props.match.path + '/add-service'} exact component={AddService} />
             </Switch>
           </main>
         </div>
