@@ -1,0 +1,45 @@
+.container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.container form > input {
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+  border-radius: 2px;
+  background-color: rgb(230, 225, 225);
+  border: none;
+  padding: .5rem .8rem .5rem .8rem;
+}
+
+.container form > input:focus {
+  outline: none;
+}
+
+.container form > button {
+  font-size: 1.6rem;
+  color: rgb(32, 95, 167);
+  border-radius: 3px;
+  font-weight: bold;
+  padding: .5rem 0 .5rem 0;
+  background-color: #fff;
+  border: 2px solid currentColor;
+}
+
+.container form > button:hover {
+  cursor: pointer;
+  background-color: rgb(32, 95, 167);
+  border: 2px solid rgb(32, 95, 167);
+  color: #fff;
+}

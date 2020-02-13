@@ -1,0 +1,12 @@
+.Room {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2rem 4rem 2rem 4rem;
+  background-color: #eee;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.Room > p {
+  font-size: 1.4rem;
+}

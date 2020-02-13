@@ -1,0 +1,22 @@
+.Navigation {
+  display: flex;
+  background: #000;
+  list-style: none;
+}
+
+.Navigation li {
+  border-right: rgb(56, 56, 56) solid 1px;
+}
+
+.Navigation li a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.8rem;
+  background-color: rgb(39, 38, 38);
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.Navigation li a.active {
+  background-color: rgb(68, 65, 65);
+}
