@@ -61,7 +61,10 @@ class HotelCreation extends Component {
     axios
       .post('/hotel/' + this.state.selectedHotelId)
       .then(response => {
-        setToken(response.data);
+        return setToken(response.data);
+      })
+      .then(() => {
+        this.props.history.replace('/console');
       });
   }
 

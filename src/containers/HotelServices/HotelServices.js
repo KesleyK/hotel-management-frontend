@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 import axios from '../../axios-instance';
+import styles from './HotelServices.module.css'
 
 class HotelServices extends Component {
   state = {
     services: []
   }
   
-  componentDidUpdate() {
+  componentDidMount() {
     axios
       .get('/services')
       .then(res => {
@@ -19,9 +20,8 @@ class HotelServices extends Component {
 
   render() {
     const services = this.state.services.map(service => (
-      <div key={service.id}>
-        <p>{service.name}</p>
-        <p>{service.price}</p>
+      <div key={service.id} className={styles.HotelService}>
+        <p>{service.name} - R${service.price}</p>
       </div>
     ));
 

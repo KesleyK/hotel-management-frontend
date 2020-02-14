@@ -1,0 +1,23 @@
+.Model {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.Model > input {
+  margin-bottom: 1rem;
+}
+
+.closeBtn {
+  position: absolute;
+  font-size: 1.8rem;
+  color: rgb(53, 53, 53);
+  top: 5px;
+  right: 10px;
+}
+
+.closeBtn:hover {
+  cursor: pointer;
+}

@@ -3,10 +3,48 @@
   border-radius: 3px;
   padding: 2rem 4rem 2rem 4rem;
   background-color: #eee;
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1rem;
 }
 
 .Room > p {
   font-size: 1.4rem;
+}
+
+.Room > button {
+  align-self: center;
+  padding: .1rem 1rem .1rem 1rem;
+  background: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1.5px;
+  transition: all .2s;
+}
+
+.Room > button.checkoutBtn {
+  color: rgb(235, 138, 11);
+}
+
+.Room > button.checkoutBtn:hover {
+  background-color: rgb(235, 138, 11);
+}
+
+.Room > button.rentBtn {
+  color: rgb(32, 95, 167);
+}
+
+.Room > button.rentBtn:hover {
+  background-color: rgb(32, 95, 167);
+}
+
+.Room > button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.Room > button:disabled {
+  display: none;
 }

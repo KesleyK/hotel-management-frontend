@@ -28,7 +28,7 @@ class Layout extends Component {
     return (
       <div className={styles.Layout}>
         <Navigation {...this.props} />
-
+        
         <div className={styles.container}>
           <div className={styles.hotelData}>
             <p><strong>Name: </strong>{this.state.hotelData.name}</p>

@@ -14,6 +14,10 @@
   padding: 3rem 5rem 3rem 5rem;
 }
 
+.container form > label {
+  font-size: 1.1rem;
+}
+
 .container form > input {
   margin-bottom: 1.2rem;
   font-size: 1.6rem;

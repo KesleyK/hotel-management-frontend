@@ -1,0 +1,9 @@
+.HotelService {
+  background-color: rgb(202, 222, 245);
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.HotelService > p {
+  font-size: 1.8rem;
+}
