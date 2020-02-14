@@ -31,6 +31,12 @@ const Navigation = (props) => {
           activeClassName={styles.active}
         >Add Service</NavLink>
       </li>
+      <li>
+        <NavLink
+          to={props.match.path + '/roomer'}
+          activeClassName={styles.active}
+        >Fetch Roomer</NavLink>
+      </li>
     </ul>
   );
 }

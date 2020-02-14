@@ -32,7 +32,6 @@ class AddService extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <Form submitted={this.onAddServiceHandler}>
         <input

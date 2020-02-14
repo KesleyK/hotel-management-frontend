@@ -1,0 +1,25 @@
+.container {
+  background-color: rgb(163, 186, 236);
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  justify-content: center;
+  height: 12rem;
+  font-size: 1.7rem;
+  padding: 2rem;
+  border: 1px solid rgb(62, 127, 180);
+}
+
+.error {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.error > p {
+  background-color: rgb(236, 183, 183);
+  padding: 1rem 3rem 1rem 3rem;
+  width: fit-content;
+  border: 1px solid rgb(233, 91, 91);
+  font-size: 1.7rem;
+}

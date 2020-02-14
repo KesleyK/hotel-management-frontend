@@ -2,8 +2,38 @@
   background-color: rgb(202, 222, 245);
   padding: 2rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .HotelService > p {
   font-size: 1.8rem;
+}
+
+.HotelService > button {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  padding: .2rem 1rem .2rem 1rem;
+  color: rgb(32, 63, 165);
+  font-weight: bold;
+  transition: all .2s;
+}
+
+.HotelService > button:hover {
+  background-color: rgb(32, 63, 165);
+  padding-right: 2rem;
+  border-radius: 2px;
+  box-shadow: rgba(0,0,0,.1) 0 2px 5px;
+  color: #eee;
+  cursor: pointer;
+}
+
+.HotelService > button:focus {
+  outline: none;
+}
+
+.arrowIcon {
+  height: 1.6rem;
+  width: 1.6rem;
 }
